@@ -5,4 +5,4 @@ Vue cli3 库模式搭建组件库并发布到 npm
 
 在packages文件里面每个组件有README.md详细介绍组件
 
-ld-table和xburner-table是一样的
+ld-table和xburner-table是两个一样的示例组件
