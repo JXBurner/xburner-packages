@@ -6,6 +6,8 @@
   "keyword": "xburner-packages xburner-packages xburner-table",
   "homepage": "https://github.com/JXBurner/xburner-packages.git",
   "private": false,
+  "author": "jxburner",
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
