@@ -10,9 +10,7 @@ import ElementUI from 'element-ui'
 import '@/assets/styles/element-variables.scss'
 
 Vue.use(ElementUI)
-// import xburnertable from 'xburnertable'
-// Vue.use(xburnertable)
-import xBurnerTable from './packages/index'
+import xBurnerTable from 'xburner-packages'
 Vue.use(xBurnerTable)
 Vue.config.productionTip = false
 

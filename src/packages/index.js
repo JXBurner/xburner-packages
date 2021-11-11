@@ -4,7 +4,7 @@
  * @LastEditors: jinx
  * @Descripttion: 导出插件
  */
-// 导入颜色选择器组件
+// 导入表格组件
 import xBurnerTable from './xburner-table'
 
 // 存储组件列表

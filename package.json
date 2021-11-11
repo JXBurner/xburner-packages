@@ -1,20 +1,24 @@
 {
-  "name": "vue-xburner-table",
-  "version": "0.1.0",
-  "private": true,
+  "name": "xburner-packages-project",
+  "version": "1.0.2",
+  "description": "组件库",
+  "main": "lib/xburner-packages.umd.min.js",
+  "keyword": "xburner-packages xburner-packages xburner-table",
+  "homepage": "https://github.com/JXBurner/xburner-packages.git",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name xburner-packages --dest lib src/packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "xburnertable": "^1.0.0"
+    "xburner-packages": "^1.0.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.9.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
