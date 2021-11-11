@@ -1,6 +1,6 @@
 {
   "name": "xburner-packages",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "组件库",
   "main": "lib/xburner-packages.umd.min.js",
   "keyword": "xburner-packages xburner-packages xburner-table",
@@ -15,7 +15,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "xburner-packages": "^1.0.4"
+    "xburner-packages": "^1.0.7"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.9.0",
